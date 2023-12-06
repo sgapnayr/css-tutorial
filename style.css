@@ -1,0 +1,49 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  width: 350px;
+  background-color: rgb(241, 241, 241);
+  padding: 1.5rem 1rem;
+  padding-bottom: 4rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  height: 48px;
+  width: 48px;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+  object-fit: cover;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.bio {
+  font-size: small;
+  color: gray;
+}
+
+.stripe {
+  height: 24px;
+  width: 100%;
+  background: rgb(88, 219, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(88, 219, 247, 1) 18%,
+    rgba(249, 38, 174, 1) 89%
+  );
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
